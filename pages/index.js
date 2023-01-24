@@ -11,6 +11,7 @@ import project3 from '../public/project3.png';
 import project4 from '../public/project4.png';
 import project5 from '../public/project5.png';
 import project6 from '../public/project6.jpeg';
+// import resume from '../assets/pdf/web-developer-resume-2023.pdf'
 import { useState } from 'react';
 import { motion as m } from 'framer-motion';
 import {container, item} from '../animation';
@@ -97,23 +98,23 @@ export default function Home() {
             <m.div
               transition={{duration: 0.3, ease: 'easeOut'}} 
               whileHover={{ scale: 1.2 }}>
-              <AiFillGithub 
-              href='https://github.com/isanchezbrian'
-                className='hover:text-black dark:hover:text-white cursor-pointer' />
+              <a href='https://github.com/isanchezbrian'>
+                <AiFillGithub className='hover:text-black dark:hover:text-white cursor-pointer' />
+              </a>
             </m.div> 
             <m.div 
               transition={{duration: 0.3, ease: 'easeOut'}}
-              whileHover={{ scale: 1.2 }}> 
-              <AiFillTwitterCircle
-                href='https://twitter.com/that1guybrian_'
-               className='hover:text-blue-400 cursor-pointer' />
+              whileHover={{ scale: 1.2 }}>
+              <a href='https://twitter.com/that1guybrian_'>
+                <AiFillTwitterCircle className='hover:text-blue-400 cursor-pointer' />
+              </a>  
             </m.div>
             <m.div 
               transition={{duration: 0.3, ease: 'easeOut'}}
               whileHover={{ scale: 1.2 }}>
-              <AiFillLinkedin
-                href='https://www.linkedin.com/in/isanchez-brian/'
-               className='hover:text-blue-700 cursor-pointer' />
+              <a href='https://www.linkedin.com/in/isanchez-brian/'>
+                <AiFillLinkedin className='hover:text-blue-700 cursor-pointer' />
+              </a>
             </m.div>
           </div>
           </m.div>
@@ -234,6 +235,20 @@ export default function Home() {
             </m.div>
           </div>
         </section>
+        {/* <section>
+          <div>
+            <h3 className='text-4xl py-1 flex justify-center items-center gap-2 text-teal-600 dark:text-teal-400 font-poppins font-medium'>Resume</h3>
+          </div>
+          <m.div 
+            variants={container}
+            initial='hidden'
+            whileInView='visible'
+            className='shadow-lg rounded-xl p-10 my-10 dark:bg-white'>
+            <div variants={item}>
+              <iframe src='/assets/pdf/web-developer-resume-2023.pdf'></iframe>
+            </div>
+          </m.div>
+        </section> */}
         <section>
           <div>
             <h3 className='text-4xl py-1 flex justify-center items-center gap-2 text-teal-600 dark:text-teal-400 font-poppins font-medium'>Skills<BiCodeAlt /></h3>
@@ -283,7 +298,7 @@ export default function Home() {
             <form 
               action='https://getform.io/f/e8b42a78-78e1-4bb4-9114-2cc23b941aa1'
               method='POST'
-              onSubmit={formik.handleSubmit}
+              // onSubmit={formik.handleSubmit}
               variants={item} 
               className='font-poppins'>
               <div className=''>
