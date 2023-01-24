@@ -97,17 +97,23 @@ export default function Home() {
             <m.div
               transition={{duration: 0.3, ease: 'easeOut'}} 
               whileHover={{ scale: 1.2 }}>
-              <AiFillGithub className='hover:text-black dark:hover:text-white cursor-pointer' />
+              <AiFillGithub 
+              href='https://github.com/isanchezbrian'
+                className='hover:text-black dark:hover:text-white cursor-pointer' />
             </m.div> 
             <m.div 
               transition={{duration: 0.3, ease: 'easeOut'}}
               whileHover={{ scale: 1.2 }}> 
-              <AiFillTwitterCircle className='hover:text-blue-400 cursor-pointer' />
+              <AiFillTwitterCircle
+                href='https://twitter.com/that1guybrian_'
+               className='hover:text-blue-400 cursor-pointer' />
             </m.div>
             <m.div 
               transition={{duration: 0.3, ease: 'easeOut'}}
               whileHover={{ scale: 1.2 }}>
-              <AiFillLinkedin className='hover:text-blue-700 cursor-pointer' />
+              <AiFillLinkedin
+                href='https://www.linkedin.com/in/isanchez-brian/'
+               className='hover:text-blue-700 cursor-pointer' />
             </m.div>
           </div>
           </m.div>
@@ -123,14 +129,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project6} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project6} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl  hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Mind Blogging</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/mind-blogging' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://my-blog-isanchezbrian.vercel.app/' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -141,14 +147,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project5} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project5} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl  hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Pokemon Rock, Paper, & Scissors</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/pokemon-rps.github.io' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://isanchezbrian.github.io/pokemon-rps.github.io/' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -159,14 +165,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project4} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl cursor-pointer' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project4} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Xtreme Sports Meetup</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/xtreme-sports-meetup' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://extreme-sports-meetups.herokuapp.com/"' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -177,14 +183,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project3} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl cursor-pointer' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project3} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>theSpot</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/theSpot' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://thespotforyou.herokuapp.com/' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -195,14 +201,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'            
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project2} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl cursor-pointer' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project2} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Game Lord</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/game-lord' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://salty-castle-61475.herokuapp.com/"' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -213,14 +219,14 @@ export default function Home() {
               initial='hidden'
               whileInView='visible'           
               className='basis-1/3 flex-1 group relative'>
-              <Image variants={item} src={project1} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl cursor-pointer' width={'100%'} height={'100%'} alt='' />
+              <Image variants={item} src={project1} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Leopard Tech-O</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://github.com/isanchezbrian/tamagotchi' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
                   </Link>
-                  <Link href='' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
+                  <Link href='https://pages.git.generalassemb.ly/brians97/tamagotchi-pet/' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-3 font-poppins justify-center items-center flex gap-1'>
                     Live<CgWebsite />
                   </Link>
                 </div>
@@ -336,7 +342,7 @@ export default function Home() {
         <section>
           <div className='text-center pb-5 dark:text-white'>
             <footer>
-             &copy; Copyright Brian Sanchez Portfolio All Rights Reserved
+             &copy; Copyright Brian Sanchez All Rights Reserved
             </footer>
           </div>
         </section>
