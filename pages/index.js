@@ -71,7 +71,7 @@ export default function Home() {
               transition={{duration: 0.2, ease: 'easeOut'}}
               whileHover={{ scale: 1.1 }}
               >
-                <a className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
+                <Link className='bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href='/resume.pdf' download={true}>Resume</Link>
               </m.li>
             </ul>
           </nav>
