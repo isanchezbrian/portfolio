@@ -132,7 +132,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project6} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl  hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Mind Blogging</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>Mind Blogging</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/mind-blogging' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
@@ -150,7 +150,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project5} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl  hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Pokemon Rock, Paper, & Scissors</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>Pokemon Rock, Paper, & Scissors</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/pokemon-rps.github.io' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
@@ -168,7 +168,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project4} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Xtreme Sports Meetup</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>Xtreme Sports Meetup</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/xtreme-sports-meetup' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
@@ -186,7 +186,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project3} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>theSpot</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>theSpot</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/theSpot' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
@@ -204,7 +204,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project2} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Game Lord</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>Game Lord</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/game-lord' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
@@ -222,7 +222,7 @@ export default function Home() {
               className='basis-1/3 flex-1 group relative'>
               <Image variants={item} src={project1} className='group-hover:opacity-10 rounded-lg object-cover shadow-xl hover:transition hover:ease-out hover:duration-500' width={'100%'} height={'100%'} alt='' />
               <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                <h3 className='text-center text-3xl font-poppins font-bold dark:text-white'>Leopard Tech-O</h3>
+                <h3 className='text-center text-2xl font-poppins font-bold dark:text-white'>Leopard Tech-O</h3>
                 <div className='flex justify-center items-center gap-10 py-6'>
                   <Link href='https://github.com/isanchezbrian/tamagotchi' className='text-white bg-teal-600 rounded-lg text-lg py-2 px-2 font-poppins justify-center items-center flex gap-1'>
                     Code<BiCodeAlt />
